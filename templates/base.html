@@ -1,12 +1,70 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="cache-control" content="no-cache" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static 'css/all.css' %}">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <!-- Custom -->
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <!-- Lightbox -->
+  <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
+
   <title>Olog2</title>
 </head>
+
 <body>
+
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+    <div class="container">
+      <a href="/" class="navbar-brand btn-">
+        <div class="row">
+          <div class="col-md-6">
+          </div>
+          <div class="col-md-6">
+          </div>
+        </div>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon" />
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto red-color">
+          <li class="nav-item">
+            <Link class="nav-link hov-anim a-links" to="/"> Home
+            </Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link hov-anim a-links" to="/ourServices"> Services
+            </Link>
+          </li>
+          <li class="nav-item">
+            <Link class="nav-link hov-anim a-links" to="/aboutUs"> Core Values
+            </Link>
+          </li>
+          <li class="nav-item">
+            <Link to="/contactUs" class="nav-link hov-anim a-links"> Contact Us
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   {% block content %} {% endblock %}
+
+
+
+  <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'js/lightbox.min.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>
