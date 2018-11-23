@@ -1,0 +1,166 @@
+.s-title {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: justify;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 50px;
+}
+
+.b-line {
+  color: rgb(238, 168, 16);
+  border: 1px solid rgb(238, 168, 16);
+  width: 100%;
+}
+
+.p-title {
+  text-align: left;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: grey;
+}
+
+.services-block h2 {
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.services-p {
+  margin-top: 40px;
+  text-align: justify;
+  color: grey;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.services-li {
+  color: grey;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.s-image {
+  margin: 40px 0;
+  height: 400px;
+  width: 500px;
+}
+
+.img-hidden {
+  margin: 0 auto;
+  height: 400px;
+  width: 500px;
+}
+
+.btn-services {
+  margin-right: 20px;
+  margin-bottom: 40px;
+  background-color: rgb(238, 168, 16);
+  border-radius: 30px;
+  color: white;
+  height: 60px;
+  width: 180px;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.btn-services:hover {
+  background-color: rgb(215, 151, 13);
+  color: black;
+}
+
+.link-route {
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 2000px) and (min-width: 1199px) {
+  .img-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 767px) {
+  .s-image {
+    margin: 40px 0;
+    height: 300px;
+    width: 350px;
+  }
+
+  .img-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+  .p-title {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .img-hidden {
+    display: show;
+    margin-bottom: 20px;
+  }
+
+  .s-image {
+    height: 200px;
+    width: 250px;
+    margin: 20px 15%;
+    text-align: center;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .p-title {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 30px;
+  }  
+
+  .img-hidden {
+    display: show;
+  }
+
+  .s-image {
+    height: 200px;
+    width: 250px;
+    margin: 20px 15%;
+    text-align: center;
+    display: none;
+  }
+
+  .p-title {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .services-block h2 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  .services-p {
+    text-align: justify;
+    margin: 20px auto;
+    width: 300px;
+  }
+
+  .services-li {
+    margin: 0 auto;
+  }
+}

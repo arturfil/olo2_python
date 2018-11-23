@@ -2,6 +2,221 @@
 
 {% block content %}
 
-<h1>Home</h1>
+{% load static %}
+
+  <div class="landing">
+    <div class="dark-overlay">
+      <h2 class="h2-landing">Digital Solutions</h2>
+      <p>Engament, Leads & Conversions</p>
+    </div>
+  </div>
+
+  <div class="container landing-block">
+    <div class="row">
+      
+      <div class="col-md-4">
+        <i class="fa fa-cog"></i>
+        <h2 class="p-landing">SEO</h2>
+        <p>
+          We are a company that is proud for it's Search Engine Optimization and Search Engine Management.
+        </p>
+      </div>
+      
+      <div class="col-md-4">
+        <i class="fa fa-laptop-code"></i>
+        <h2 class="p-landing">Software</h2>
+        <p>
+           We produce all types of software development ranging from web pages, web applications and mobile applications.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <i class="fa fa-tablet"></i>
+        <h2 class="p-landing">Social Presence</h2>
+        <p>
+           We help our clients to have a impactful social presence in order to reach more consumers and returning clients.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-landing">
+    <h2 class="h2-parallax">
+      We have the best customer satisfaction
+    </h2>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container cards-block">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <div class="container">
+                <h2>SEO</h2>
+              </div>
+            </div>
+            <div class="back">
+              <div class="container">
+                <h2>SEO</h2>
+                <p>
+                  We will leverage the google search engine in order to make your website rank at a higher position than it's actual one.
+                </p>
+                <a href="/services">
+                <button class="btn-learn">Learn More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <div class="container">
+                <h2> Web Development </h2>
+              </div>
+            </div>
+            <div class="back">
+              <div class="container">
+                <h2>Web Development</h2>
+                <p>
+                  We use a different variety of technologies in order to deliver the best and most up to date product.
+                </p>
+                <a href="/services">
+                <button class="btn-learn">Learn More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <div class="container">
+                <h2>Point Per Click</h2>
+              </div>
+            </div>
+            <div class="back">
+              <div class="container">
+                <h2>Point Per Click</h2>
+                <p>
+                  It is very important to have different segments of our services for different clients who have different needs, driving more
+                  traffic to their websitesd.
+                </p>
+                <a href="/services">
+                <button class="btn-learn">Learn More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <div class="container">
+                <h2>Facebook Ads</h2>
+              </div>
+            </div>
+            <div class="back">
+              <div class="container">
+                <h2>Facebook Ads</h2>
+                <p>
+                  We have the expertise and the know how in order to exploit the Facebook ads frame work, we will maximize the views per ads.
+                </p>
+                <a href="/services">
+                <button class="btn-learn">Learn More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <div class="container">
+                <h2>Creative Design</h2>
+              </div>
+            </div>
+            <div class="back">
+              <div class="container">
+                <h2>Creative Design</h2>
+                <p>
+                  We have all types of services for creative desing ranging from front-end, UX/UI to logos and brochures.
+                </p>
+                <a href="/services">
+                <button class="btn-learn">Learn More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="flip-container">
+          <div class="flipper">
+            <div class="front">
+              <div class="container">
+                <h2>Software Development</h2>
+              </div>
+            </div>
+            <div class="back">
+              <div class="container">
+                <h2>Point Per Click</h2>
+                <p>
+                  We provide all type of Software Development for all type of needs. We can do web applications, mobile applications and desktop
+                  applications
+                </p>
+                <a href="/services">
+                <button class="btn-learn">Learn More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr className="" />
+  
+  <div class="container logos-block">
+    <div class="row">
+      <div class="col-md-2">
+        <img class="logos" src="{% static 'img/grupo-seri.jpg' %}" alt="">
+      </div>
+      
+      <div class="col-md-2">
+        <img class="logos" src="{% static 'img/aaexport.jpg' %}" alt="">
+      </div>
+
+      <div class="col-md-2">
+        <img class="logos" src="{% static 'img/papas360.png' %}" alt="">
+      </div>
+
+      <div class="col-md-2">
+        <img class="logos" src="{% static 'img/win-capital.png' %}" alt="">
+      </div>
+      
+      <div class="col-md-2">
+        <img class="logos" src="{% static 'img/waha_logo.png' %}" alt="">
+      </div>
+
+      <div class="col-md-2">
+        <img class="logos" src="{% static 'img/2friends_icon.jpg' %}" alt="">
+      </div>
+    </div>
+  </div>
 
 {% endblock %}

@@ -1,0 +1,39 @@
+{% load static %}
+
+<nav class="navbar fixed-top navbar-expand-sm navbar-light">
+  <div class="container">
+    <a href="/" class="navbar-brand btn-">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-logo" src="{% static 'img/Olog2.jpg' %}" alt="">
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon" />
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto red-color">
+        <li class="nav-item nav-link">
+          <a class="nav-link hov-anim a-links" href="/"> Home
+          </a>
+        </li>
+        <li class="nav-item nav-link">
+          <a class="nav-link hov-anim a-links" href="/services"> Services
+          </a>
+        </li>
+        <li class="nav-item nav-link">
+          <a class="nav-link hov-anim a-links" href="/about"> Core Values
+          </a>
+        </li>
+        <li class="nav-item nav-link">
+          <a class="nav-link hov-anim a-links" href="/contact"> 
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

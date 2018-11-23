@@ -1,0 +1,82 @@
+.form-contact {
+  padding-top: 120px;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.form-contact hr {
+  margin-bottom: 60px;
+}
+
+.form-size {
+  text-indent: 10px;
+  height: 60px;
+  width: 550px;
+  margin-bottom: 20px;
+  border: solid 1px lightgrey;
+}
+
+.form-area {
+  text-indent: 10px;
+  width: 550px;
+  border-color: lightgrey;
+  height: 190px;
+}
+
+.btn-form {
+  margin-top: 20px;
+  background-color: rgb(238, 168, 16);
+  color: white;
+  height: 50px;
+  width: 130px;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+.btn-form:hover {
+  background: rgb(114, 150, 226);
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+}
+
+.alert-box {
+  height: 200px;
+  width: 400px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.alert-box-content {
+  background-color: rgb(116, 221, 90);
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 676px) {
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .form-size {
+    width: 350px;
+  }
+
+  .form-area {
+    width: 350px;
+  }
+}

@@ -1,0 +1,71 @@
+.about-us {
+  position: relative;
+  background: url('../img/altra_wallpaper.jpg') no-repeat;
+  min-height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-p {
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: 800;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
+
+.services-block1 {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(238, 168, 16);
+  color: whitesmoke;
+}
+
+.services-block2 {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(238, 105, 75);
+  color: whitesmoke;
+}
+
+.services-block3 {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(185, 25, 116);
+  color: whitesmoke;
+}
+
+.profile-image {
+  margin-left: 30%;
+  height: 200px;
+  width: 190px;
+  border-radius: 70%;
+}
+
+.paragraphs {
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.paragraphs h2 {
+  margin-top: 80px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.services-block h2 {
+  font-weight: 400;
+}
+
+.aboutUs-p {
+  margin-top: 40px;
+  text-align: justify;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}

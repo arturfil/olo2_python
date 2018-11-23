@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <div class="form-contact">
+    <h2 class="text-center title">Lets work together!</h2>
+    <hr class="basic" />
+    <form onSubmit={this.onSubmit} class="text-center form-group">
+      <input name="name" 
+        class="form-size" type="text" 
+        placeholder="Name" required />
+      <br />
+      <input name="email" class="form-size" 
+        type="text" placeholder="Email" 
+        required />
+      <br />
+      <input name="company" class="form-size" 
+        type="text" placeholder="Company" />
+      <br />
+      <input name="phone" class="form-size" 
+        type="text" placeholder="Phone" required />
+      <br />
+      <textarea name="message" class="form-area" 
+        col="8" type="text" 
+        placeholder="Write your message here ..."
+      >
+      </textarea>
+      <br> 
+
+      <button class="btn-form">
+        Send
+      </button>
+
+    </form>
+  </div>
+
+{% endblock %}

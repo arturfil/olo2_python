@@ -7,4 +7,10 @@ def index(request):
 def about(request):
   return render(request, 'pages/about-us.html')
 
+def services(request):
+  return render(request, 'pages/services.html')
+
+def contact(request):
+  return render(request, 'pages/contact-us.html')
+
 

@@ -1,0 +1,82 @@
+{% extends  'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+  <div class="container">
+    <h2 class="s-title">Our Services</h2>
+    <p class="p-title">
+      We provide unique solutions that are customized to each of our clients' specific needs.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row services-block">
+      <div class="col-md-6">
+        <img class="s-image" src="{% static 'img/web_development_ps.jpg' %}" alt="" />
+      </div>
+      <div class="col-md-6">
+        <h2>Web Development</h2>
+        <p class="services-p">
+          Creating a website is one of the intial and most important steps on building your brand. Your website is the first impression
+          and the image that you give that out to the world.
+        </p>
+        <p class="services-p">
+          We create and cater websites and web applications in the most timely effective, efficient and affordable way.
+        </p>
+      </div>
+      <img class="img-hidden" src="{% static 'img/web_development_ps.jpg' %}" alt="" />
+      <div class="row services-block">
+        <div class="col-md-6">
+          <h2>SEO Marketing Services </h2>
+          <p class="services-p">
+            Have you ever wondered how people reach to your website? Have you ever heard about SEO?
+          </p>
+          <p class="services-p">
+            Your website's Search Engine Optimization (or SEO) will help reduce the investment on paid ads, receive organic leads and
+            get new customers.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <img class="s-image" src="{% static 'img/seo-marketing.jpeg' %}" alt="" />
+        </div>
+      </div>
+      <img class="img-hidden" src="{% static 'img/seo-marketing.jpeg' %}" alt="" />
+      <div class="row services-block">
+        <div class="col-md-6 col-sm-12">
+          <img class="s-image" src="{% static 'img/mobile_application.jpeg' %}" alt="" />
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h2>Software & Marketing Solutions</h2>
+          <p class="services-p">
+            We offer custom in-house solutions ranging in:
+          </p>
+          <ul>
+            <li class="services-li">Creative Design</li>
+            <li class="services-li">Google Adwords</li>
+            <li class="services-li">Facebook Ads</li>
+            <li class="services-li">Content Management</li>
+          </ul>
+          <ul>
+            <li class="services-li">Mobile Applications</li>
+            <li class="services-li">Software Applications</li>
+          </ul>
+        </div>
+      </div>
+      <img class="img-hidden" src="{% static 'img/mobile_application.jpeg' %}" alt="" />
+    </div>
+    <div class="row">
+      <div class="col-md-12 link-route">
+        <h2 class="">Start working with us!</h2>
+        <hr class="basic" />
+        <a href="/contact">
+        <button class="btn-services" href="/contact">
+          Get in Contact
+        </button>
+        </a>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
