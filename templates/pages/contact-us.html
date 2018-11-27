@@ -2,10 +2,15 @@
 
 {% block content %}
 
-  <div class="form-contact">
+
+<div class="form-contact">
+    {% include 'partials/_alerts.html' %}
+    
     <h2 class="text-center title">Lets work together!</h2>
     <hr class="basic" />
-    <form onSubmit={this.onSubmit} class="text-center form-group">
+    <form action="{% url 'contact' %}" method="POST" class="text-center form-group">
+      {% csrf_token %}
+      <input type="hidden" name="user_id" value="0">
       <input name="name" 
         class="form-size" type="text" 
         placeholder="Name" required />
@@ -15,7 +20,7 @@
         required />
       <br />
       <input name="company" class="form-size" 
-        type="text" placeholder="Company" />
+        type="text" placeholder="Company" required/>
       <br />
       <input name="phone" class="form-size" 
         type="text" placeholder="Phone" required />
