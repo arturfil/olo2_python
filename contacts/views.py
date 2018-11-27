@@ -21,7 +21,7 @@ def contact(request):
       'Potential Client Inquiry!',
       'There has been an inquiry from: ' + name + ' of Company: ' + company,
       'filioarturo@gmail.com',
-      ['filioarturo@gmail.com'],
+      ['filioarturo@gmail.com', 'mazatanalberto@gmail.com'],
       fail_silently = False
     )
 
