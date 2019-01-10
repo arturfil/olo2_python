@@ -50,9 +50,10 @@
 }
 
 .img-hidden {
+  text-align: center;
   margin: 0 auto;
-  height: 400px;
-  width: 500px;
+  height: 280px;
+  width: 310px;
 }
 
 .btn-services {
@@ -143,6 +144,11 @@
 
   .p-title {
     text-align: left;
+    margin: 0 auto;
+  }
+
+  .services-block {
+    text-align: center;
     margin: 0 auto;
   }
 

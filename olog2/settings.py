@@ -69,7 +69,7 @@ DATABASES = {
         'NAME': 'olog2',
         'PORT': '5434',
         'USER': 'postgres',
-        'PASSWORD': 'jamesbond00?',
+        'PASSWORD': '<password>',
         'HOST': 'localhost'
     }
 }
