@@ -60,19 +60,19 @@ TEMPLATES = [
 WSGI_APPLICATION = 'olog2.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+# # Database
+# # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'olog2',
-        'PORT': '5434',
-        'USER': 'postgres',
-        'PASSWORD': '<password>',
-        'HOST': 'localhost'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'olog2',
+#         'PORT': '5434',
+#         'USER': 'postgres',
+#         'PASSWORD': '<password>',
+#         'HOST': 'localhost'
+#     }
+# }
 
 
 # Password validation
